@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
     }
     //host = virConnectGetHostname(conn);
 
-    vdptr=virDomainLookupByName(contn,"ubuntu_new");
+    vdptr=virDomainLookupByName(contn,"ubuntu-new");
     printf("\n 1.Start \n 2.Suspend\n 3.Resume \n 4.Shutdown\n");
 
     printf("Enter your choice:\n");
